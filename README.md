@@ -177,7 +177,7 @@ A selection of the literature behind the project:
 
 - Alfke, Peter. *Efficient Shift Registers, LFSR Counters, and Long Pseudo-Random Sequence Generators.* Application Note XAPP052, Xilinx, 1996.
 - Golomb, Solomon W. *Shift Register Sequences.* Aegean Park Press, 1982.
-- Lidl, Rudolf, and Harald Niederreiter. *Finite Fields.* 2nd ed., Cambridge University Press, 1997.
+- Lidl, Rudolf, and Harald Niederreiter. *Introduction to Finite Fields and Their Applications.* Revised ed., Cambridge University Press, 1994.
 - Weste, Neil H. E., and David Money Harris. *CMOS VLSI Design: A Circuits and Systems Perspective.* 4th ed., Pearson, 2010.
 
 ## License
