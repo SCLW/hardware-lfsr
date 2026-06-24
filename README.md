@@ -114,10 +114,10 @@ The compressed source files are in [`assets/video/`](assets/video/).
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="assets/img/diagrams/board-example-dark.webp">
   <source media="(prefers-color-scheme: light)" srcset="assets/img/diagrams/board-example-light.webp">
-  <img alt="Example board layout from the discrete-logic prototype" src="assets/img/diagrams/board-example-light.webp" width="100%">
+  <img alt="Board layout from the discrete-logic prototype" src="assets/img/diagrams/board-example-light.webp" width="100%">
 </picture>
 
-*Example board layout from the discrete-logic prototype.*
+*Board layout from the discrete-logic prototype.*
 <br>
 
 **FPGA.** An iCE40 FPGA (the same device family Tiny Tapeout uses for its FPGA work) provides a reconfigurable, scalable route. The logic-gate structure can be multiplied and elaborated in place: many parallel LFSRs, longer registers, and richer coupled feedback, all without re-spinning physical hardware, which suits larger and more complex multichannel setups.
