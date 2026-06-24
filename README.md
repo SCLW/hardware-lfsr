@@ -176,12 +176,9 @@ Pieces built on counting, logic, and combinatorial or pseudorandom process, incl
 A selection of the literature behind the project:
 
 - Alfke, Peter. *Efficient Shift Registers, LFSR Counters, and Long Pseudo-Random Sequence Generators.* Application Note XAPP052, Xilinx, 1996.
-- Collins, Nicolas. *Handmade Electronic Music: The Art of Hardware Hacking.* Routledge, 2009.
 - Golomb, Solomon W. *Shift Register Sequences.* Aegean Park Press, 1982.
-- Horowitz, Paul, and Winfield Hill. *The Art of Electronics.* 3rd ed., Cambridge University Press, 2021.
-- Richards, John. "DIY and Maker Communities in Electronic Music." *The Cambridge Companion to Electronic Music*, Cambridge University Press, 2017.
-- Roads, Curtis. *Composing Electronic Music: A New Aesthetic.* Oxford University Press, 2015.
-- Wendt, Florian, et al. "Perception of Spatial Sound Phenomena Created by the Icosahedral Loudspeaker." *Computer Music Journal*, vol. 44, no. 1, 2017.
+- Lidl, Rudolf, and Harald Niederreiter. *Finite Fields.* 2nd ed., Cambridge University Press, 1997.
+- Weste, Neil H. E., and David Money Harris. *CMOS VLSI Design: A Circuits and Systems Perspective.* 4th ed., Pearson, 2010.
 
 ## License
 
