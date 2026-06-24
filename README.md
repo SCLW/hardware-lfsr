@@ -87,7 +87,7 @@ Each successive register holds the previous register's state, so every output ca
 
 Beyond clock rate and sequence length, a few further controls shape the result:
 
-- **Clock modulation.** The clock can be modulated with pulse-width modulation (PWM), frequency modulation (FM), or the trigger pulses of an analog sequencer, so the texture shifts continuously instead of sitting at a fixed rate.
+- **Clock modulation.** The clock can be modulated with pulse-width modulation (PWM), or the trigger pulses of an analog sequencer, so the texture shifts continuously instead of sitting at a fixed rate.
 - **Coupled LFSRs.** Feeding the pseudorandom bit stream of a second LFSR into the clock input of the first couples the two registers; two LFSRs at different clock rates build markedly more complex, less predictable rhythms. This is the same coupling later built into the custom chip.
 - **Freezing the feedback.** Stopping the feedback and letting the stored bits rotate shortens the active sequence and breaks smaller loops out of a longer one.
 
@@ -97,7 +97,7 @@ In one two-channel demonstration, a 31-stage and a 29-stage maximum-length seque
 
 Short clips of the running system, with sound. (The second clip keeps its unusually wide, oscilloscope-style format.)
 
-**Aperiodic sequence** (taps 30 and 27, 10&nbsp;Hz, 8 speakers, one LFSR):
+**Aperiodic sequence** (taps 30 and 27, varying clock rate, 8 speakers, one LFSR):
 
 https://github.com/user-attachments/assets/fcb2e124-fce3-4289-be17-752d0ce55ec4
 
