@@ -14,7 +14,7 @@ This repository is a concept overview of the approach: what it is, how it works,
   <img alt="System architecture of the multichannel LFSR" src="assets/img/diagrams/architecture-light.svg" width="100%">
 </picture>
 
-*System architecture: an n-stage shift register with XNOR feedback, two n-channel multiplexers for dynamic tap and output selection, and parallel register outputs feeding a multichannel loudspeaker system.*
+*System architecture: a 32-stage shift register with XNOR feedback, two 32-channel multiplexers for dynamic tap and output selection, and parallel register outputs feeding a multichannel loudspeaker system.*
 <br>
 
 ## Background
