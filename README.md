@@ -51,7 +51,7 @@ Feedback taps that follow a primitive polynomial produce a *maximum length seque
 
 ### Seeding and lock-up
 
-Each stage must start from a non-trivial seed. With XOR feedback the all-zero state is forbidden (it locks the output at zero); with XNOR it is the all-ones state. A small detector circuit spots the forbidden state and forces an escape, which extends the usable sequence to a full 2&#8319;.
+The initial n-bit register state is the seed. With XOR feedback the all-zero state is a lock-up state, with XNOR feedback the all-ones state: the feedback reproduces the state and the register stops changing. The protection circuit detects this state and inverts the feedback bit. On the next clock edge the modified bit enters the first stage and state transitions resume. With this modification the lock-up state becomes part of the cycle and the sequence length grows from 2&#8319; &minus; 1 to 2&#8319;.
 
 <picture>
   <source media="(prefers-color-scheme: dark)"  srcset="assets/img/diagrams/lock-up-elimination-dark.svg">
