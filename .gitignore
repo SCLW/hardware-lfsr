@@ -15,3 +15,6 @@ Spotlight-V100
 
 # local production / working files (not for the public repo)
 production/
+
+# agent working rules (kept local, not for the public repo)
+CLAUDE.md
